@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="entryButton" type="id">entrybutton</item>
+    <item name="payButton" type="id">paybutton</item>
+    <item name="intercomButton" type="id">intercombutton</item>
+    <item name="toolbar" type="id">toolbar</item>
+    <item name="content_text" type="id">content_text</item>
+</resources>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#202547">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:gravity=""
+        android:orientation="vertical"
+        android:padding="90dp">
+
+        <!-- Logo -->
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/logo"
+            android:src="@drawable/logo_blue" />
+
+        <!-- Texto de bienvenida -->
+        <TextView
+            android:id="@+id/text_welcome"
+            android:layout_width="192dp"
+            android:layout_height="92dp"
+            android:layout_marginTop="38dp"
+            android:gravity="center_horizontal"
+            android:text="@string/bienvenido_a_entrypay"
+            android:textColor="#202547"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+        <!-- Campo de Usuario -->
+
+        <!-- Campo de Contraseña -->
+
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:autofillHints=""
+            android:backgroundTint="#512DA8"
+            android:baselineAligned="false"
+            android:hint="@string/usuario"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:textColor="#000000"
+            android:textColorHint="#AAAAAA" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:autofillHints=""
+            android:backgroundTint="#512DA8"
+            android:hint="@string/contrase_a"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textColor="#000000"
+            android:textColorHint="#757575" />
+
+        <!-- Botón de Iniciar Sesión -->
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#FF5722"
+            android:text="@string/iniciar_sesi_n"
+            android:textColor="#FFFAFA"
+            tools:ignore="VisualLintButtonSize" />
+
+        <!-- Botón de Activar Cuenta -->
+
+        <!-- Botón de Recuperar Contraseña -->
+        <TextView
+            android:id="@+id/btn_activate_account"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center_vertical"
+            android:text="@string/activar_cuenta"
+            android:textColor="#DD2C00" />
+
+        <TextView
+            android:id="@+id/btn_forgot_password"
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_vertical"
+            android:text="@string/recuperar_contrase_a"
+            android:textColor="#DD2C00" />
+    </LinearLayout>
+</ScrollView>
